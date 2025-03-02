@@ -2,7 +2,7 @@
 import viteLogo from './assets/vite.svg';
 import vueLogo from './assets/vue.svg';
 
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 window.electronAPI.sendMessage('Hello from App.vue!');
 </script>
